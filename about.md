@@ -1,10 +1,9 @@
 ---
 layout: page
-title: About
+title: Acerca de mí
 permalink: /about/
 ---
 
-# Acerca de Mi
 
 Soy Rodrigo Valdés Chileno y soy un apasionado de las tecnologías de la computación.Nací hace 35 años
 en Talcahuano "Principal puerto militar industrial y pesquero." ubicado en la Octava región del
