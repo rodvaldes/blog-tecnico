@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl":
  técnicos. La idea es mostrar algunos de los proyectos en los cuales me encuentro 
  trabajando. Y asi poder demostrar aspectos técnicos de mi trabajo y mi pasión por 
  la tecnología.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: roxtrongo
 github_username:  roxtrongo
