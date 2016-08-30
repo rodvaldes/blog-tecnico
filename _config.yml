@@ -8,11 +8,11 @@
 # Site settings
 title: Blog técnico de Rodrigo Valdés
 email: rodrigovaldes@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-Este es mi sitio Blog en donde compartiré información respecto a mis descubrimientos
-técnicos. La idea es mostrar algunos de los proyectos en los cuales me encuentro 
-trabajando. Y asi poder demostrar aspectos técnicos de mi trabajo y mi pasión por 
-la tecnología.
+description: > # this means to ignore newlines until "baseurl":
+ Este es mi sitio Blog en donde compartiré información respecto a mis descubrimientos
+ técnicos. La idea es mostrar algunos de los proyectos en los cuales me encuentro 
+ trabajando. Y asi poder demostrar aspectos técnicos de mi trabajo y mi pasión por 
+ la tecnología.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: roxtrongo
