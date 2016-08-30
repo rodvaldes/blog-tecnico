@@ -13,9 +13,6 @@ $ bundle exec jekyll new . --force
 $ bundle exec jekyll serve
 ```
 
-
-
-
 ### Issues
 
 ERROR: cannot discover where libxml2 is located on your system. please make sure `pkg-config` is installed. 
