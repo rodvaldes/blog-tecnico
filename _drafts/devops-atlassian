@@ -1,0 +1,24 @@
+# Devops en Atlassian
+##[Webinar](https://youtu.be/Us-gNHEcRhM?list=PLaD4FvsFdarShUdV2bLeq8R3TrX_vJjXp)
+
+El video describe el proceso Devops que se lleva a cabo en los equipos
+de desarrollo de Atlassian. Ellos utilizan al máximo herramientas de su 
+propio stack tales como:
+1) Jira
+2) Confluence
+3) Bitbucket
+4) Bamboo.
+5) Hip Chat
+
+Además de otras herramientas como:
+- Cucumber.
+- AWS.
+- Terraform (Hashicorp)
+- Vagrant.
+- BigPanda.
+- New Relic.
+- Data Dog.
+- PagerDuty.
+- Sentry.
+- Statuspage.io
+ 
