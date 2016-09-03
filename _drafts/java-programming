@@ -1,0 +1,66 @@
+# Java Programming
+
+Hace bastante tiempo que no programo en Java, siendo este uno de los 
+primeros lenguajes que intenté aprender.
+
+Es sorpendente ver como el trabajo de programación ha evolucionado 
+esto también pasa por Java que es uno de los lenguajes más usado en el desarrollo 
+de aplicaciones Enterprise.
+
+Java es un lenguaje de programación Orientado a Objetos que fue creado en la 
+década de los 90 por Ryan Goslin mientras trabajaba en Sun Microsystems. 
+
+No debemos dejar de mencionar que java es el lenguaje de programación en el contexto
+de una plataforma tecnológica muy completa que incluye Maquinas Virtuales, Diversos entornos 
+de ejecución, Un conjunto de Frameworks y tecnologías para el desarrollo, y un completo 
+ecosistema de Programadores y Corporaciones que respaldan el desarrollo del lenguaje.
+
+## Mis entornos de desarrollo
+
+Yo acostumbro a trabajar tanto en mi servidor principal de desarrollo que es un Sistema
+Microsoft Windows con 32 GB de RAM y procesador Intel I7 4400. En esta máquina puedo desarrllar
+tanto desde Windows, asi como de alguna máquina virtual en algún otro Sistema Operativo.
+
+
+Por otro lado aprecio mucho la posibilidad de levantarme de mi escritorio y poder programar
+desde mi laptop. En estos momentos estoy usando Macbook con OSX El Capitan.
+
+Una de las ventajas de java es que fue diseñado como un lenguaje Multiplataforma, lo que implica
+"Write once run anywhere", es decir la posibilidad de escribir tan sólo un programa en lenjuage
+java y poder desplegarlo en una plataforma distinta mientras esta cuente con su respectivo entorno
+de ejecución. 
+
+
+## Setup MacOS EL capitan
+```bash
+bash-3.2$ java -version                                                                                                
+java version "1.8.0_60"                                                                                                
+Java(TM) SE Runtime Environment (build 1.8.0_60-b27)                                                                   
+Java HotSpot(TM) 64-Bit Server VM (build 25.60-b23, mixed mode) 
+```
+
+podemos ver en la terminal que mi máquina ya tiene una versión de java instalada,
+la versión es 1.8.0_60. Esta versión es suficiente para comenzar a trabajar.
+
+## Java IDE's
+
+Entornos de desarrollo Integrados para java hay varios, sin embargo los que más destacan son:
+
+* Eclipse
+* Netbeans
+* IdeaJ
+* Oracle Java Developer
+
+En mi máquina he instalado Eclipse y Netbeans.
+
+
+## Recursos de Aprendizaje
+
+Respecto a java existen muchos recursos en la red. 
+
+- [Reddit Learn Java](https://www.reddit.com/r/learnjava)
+- [Java Book](http://java2s.com/Book/Java/CatalogJava.htm)
+
+## Repositorio de Ejercicios
+
+https://github.com/roxtrongo/PracticasJavaBook
