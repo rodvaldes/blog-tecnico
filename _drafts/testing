@@ -1,0 +1,11 @@
+# Cucumber Automated Acceptance Testing
+---
+
+The developer and stakeholder
+collaborate to write automated tests that express the outcome that the
+stakeholder wants
+
+Los test automatizados permiten contruir la coa adecuada. Cucumber permiten
+expresar en un lenguaje que acualquiera puede entender. Esto permite generar
+una visión y comunicación del diseño del sistema antes de ser contruido.
+
