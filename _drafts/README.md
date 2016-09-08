@@ -96,6 +96,9 @@ ___
 Setup de Máquina de desarrollo
 ---
 
+* Cloud MS Azure Storage File/Blob Services.
+ 
+
 * Virtualización.
 
   - VmWare Fusion.
