@@ -66,8 +66,12 @@ $ sudo apt-get install xclip
 $ xclip -sel clip < ~/.ssh/id_rsa.pub
 # Copies the contents of the id_rsa.pub file to your clipboard
 
-```
+rvaldes@ubuntu:~$ xclip -sel clip < ~/.ssh/id_rsa.pub
+rvaldes@ubuntu:~$ 
 
+git@github.com:roxtrongo/blog-tecnico.git
+```
+https://confluence.atlassian.com/bitbucket/set-up-ssh-for-git-728138079.html
 
 
 
