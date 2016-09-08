@@ -11,6 +11,61 @@ en [CoredevX](https://www.coredevx.com/site/).
 
 - 
 
+# Acerca de este Blog
+
+Basado en Jekyll Framework para compatibilidad Markdown y GitHub Pages.
+
+
+rvaldes@ubuntu:~/github/blog-tecnico$ tree .
+.
+├── about.md
+├── _config.yml
+├── css
+│   └── main.scss
+├── _drafts
+│   ├── atlassian
+│   ├── basedatos
+│   │   └── mysql
+│   ├── desarrollo
+│   │   ├── integracioncontinua
+│   │   ├── javadevelopment.md
+│   │   └── maven
+│   ├── devops
+│   │   └── devops.md
+│   ├── devops-atlassian
+│   ├── operaciones
+│   │   └── freeswitch
+│   ├── README.md
+│   ├── README.md~
+│   └── testing
+├── feed.xml
+├── Gemfile
+├── Gemfile.lock
+├── _includes
+│   ├── footer.html
+│   ├── header.html
+│   ├── head.html
+│   ├── icon-github.html
+│   ├── icon-github.svg
+│   ├── icon-twitter.html
+│   └── icon-twitter.svg
+├── index.html
+├── _layouts
+│   ├── default.html
+│   ├── page.html
+│   └── post.html
+├── _posts
+│   ├── 2016-08-22-welcome-to-jekyll.markdown
+│   └── 2016-08-29-PrimerPost.markdown
+├── README.md
+└── _sass
+    ├── _base.scss
+    ├── _layout.scss
+    └── _syntax-highlighting.scss
+
+10 directories, 34 files
+
+
 
 ## Heramientas Básicas:
 
