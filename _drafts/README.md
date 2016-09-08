@@ -97,13 +97,17 @@ Setup de Máquina de desarrollo
 ---
 
 * Virtualización.
+
   - VmWare Fusion.
   - Máquina Ubuntu 14.04 OVF Image Install.
-* Vagrant
-  - Vagrant Install (Linux Ubuntu 14.04)
+  - OS's Iso's.
 
-  
+* Vagrant
+
+  - Vagrant Install (Linux Ubuntu 14.04)
+  - Vagrant VmWare Connector.
   - Vagrant Boxes Downloads.
+
     - Ubuntu.
     - CentOS 6.4 7.0.
     - RedHat.
@@ -114,6 +118,7 @@ Setup de Máquina de desarrollo
 * Brew Install.
 * Install Iterm2.
 * Install git.
+* 
 * [Atom](https://atom.io/)
 *
 
