@@ -53,13 +53,14 @@ mvn eclipse:eclipse
 ---
 
 ### Ejemplo pom.xml mínimo 
-
+```xml
     <project>
       <modelVersion>4.0.0</modelVersion>
       <groupId>com.mycompany.app</groupId>
       <artifactId>my-app</artifactId>
       <version>1</version>
     </project>
+```
 
 ### ejemplo pom.xml desarrollo de plugin para Jira Server.
 
