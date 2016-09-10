@@ -1,3 +1,5 @@
+## Subversion
+
 ## Overview
 
 Subversion es una herramienta de control de version de archivos centralizada. 
@@ -5,13 +7,19 @@ Es uno de los sistemas de versionamiento de código con muchos usuarios en Chile
 y en CoreDevX se me ha mencionado la necesidad de comprender su funcionamiento 
 a nivel de usuario.
 
+
+## From Subversion Apache Website:
+
+"Enterprise-class centralized version control for the masses."
+
+
 ## Prueba de Concepto
 
 OS: Ubuntu 14.04 (Trusty Tahr)
 
 ### Instalación
 
-#### Opciones Linux
+#### Software
 
 -[wandisco](https://www.wandisco.com/subversion/download#ubuntu)
 
@@ -46,8 +54,6 @@ rvaldes@cyberlaptop-vbox-ubuntu14:~$
 
 ## [Inicialización de Repositorio](https://subversion.apache.org/quick-start)
 
-
-
 ```bash
 $ mkdir -p $HOME/.svnrepos/
 $ svnadmin create ~/.svnrepos/my-repos
@@ -61,16 +67,8 @@ $ svn up
 
 
 # Subversion Source Control 
-
 https://subversion.apache.org/
 
-# Overview
-
-From Subversion Apache Website:
-
-## Subversion
-
-"Enterprise-class centralized version control for the masses."
 
 ## Documentación
 
