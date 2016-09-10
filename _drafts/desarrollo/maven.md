@@ -1,6 +1,14 @@
 # Maven
 
-## Overview
+## [Overview qué es Maven](https://maven.apache.org/what-is-maven.html)
+
+### Objetivos de Maven
+
+- Facilitar el proceso de build.
+- Proveer un sistema uniforme de Build.
+- Proveer información de calidad del proyecto.
+- Proveer una guía de mejores prácticas de desarrollo.
+- Permitir una migración transparente para lo snuevos features.
 
 ## Website Principal
 
@@ -27,7 +35,7 @@ mvn -B archetype:generate \
   -DarchetypeGroupId=org.apache.maven.archetypes \
   -DgroupId=com.mycompany.app \
   -DartifactId=my-app
-``
+```
 
 ### Compilar
 mvn compile
@@ -47,20 +55,24 @@ mvn site
 
 mvn eclipse:eclipse
 
+### [Ciclo de vida de Build](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 
 
-## Project Object Model POM .xml
+
+
+
+## [Project Object Model POM .xml](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html)
 ---
 
+
+
 ### Ejemplo pom.xml mínimo 
-```xml
     <project>
       <modelVersion>4.0.0</modelVersion>
       <groupId>com.mycompany.app</groupId>
       <artifactId>my-app</artifactId>
       <version>1</version>
     </project>
-```
 
 ### ejemplo pom.xml desarrollo de plugin para Jira Server.
 
