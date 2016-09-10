@@ -75,7 +75,7 @@ https://subversion.apache.org/
 https://subversion.apache.org/docs/
 
 ## Instalación Subversion en Ubuntu 14.04
-
+## Configuración
 ## Apache Subversion: Quick Start
 
 https://subversion.apache.org/quick-start
@@ -92,7 +92,23 @@ $ svn up
 
 [Desde el Libro](http://svnbook.red-bean.com/nightly/en/svn.intro.quickstart.html)
 
-## Configuración
+
+## Importar archivos y directorios no versionados al repositorio subversion
+
+
+```bash
+$ svn import /path/to/mytree \
+             http://svn.example.com/svn/repo/some/project \
+             -m "Initial import"
+Adding         mytree/foo.c
+Adding         mytree/bar.c
+Adding         mytree/subdir
+Adding         mytree/subdir/quux.h
+
+Committed revision 1.
+$
+```
+
 
 
 ## Version Control Basics 
