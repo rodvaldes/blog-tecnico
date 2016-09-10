@@ -109,6 +109,48 @@ Committed revision 1.
 $
 ```
 
+## Como hacer checkout "git clone" en Subversion
+
+```bash
+rvaldes@cyberlaptop-vbox-ubuntu14:~$ mkdir svntest2
+rvaldes@cyberlaptop-vbox-ubuntu14:~$ cd svntest2/
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2$ ls
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2$ svn checkout file:///home/rvaldes/.svnrepos/my-repos/
+A    my-repos/tags
+A    my-repos/trunk
+A    my-repos/trunk/newfolder
+A    my-repos/trunk/newfolder/README.md
+A    my-repos/trunk/newfolder/newfile.md
+A    my-repos/branches
+Checked out revision 5.
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2$ ls
+my-repos
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2$ cd my-repos/
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos$ ls
+branches  tags  trunk
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos$ cd trunk/
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos/trunk$ ls
+newfolder
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos/trunk$ nano newfile
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos/trunk$ 
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos/trunk$ 
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos/trunk$ 
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos/trunk$ 
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos/trunk$ svn status
+?       newfile
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos/trunk$ svn add newfile 
+A         newfile
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos/trunk$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos/trunk$ svn status
+A       newfile
+rvaldes@cyberlaptop-vbox-ubuntu14:~/svntest2/my-repos/trunk$ svn commit -m "Agrega archivo desde otro folder"
+Adding         newfile
+Transmitting file data .
+Committed revision 6.
+```
+
+
 
 
 ## Version Control Basics 
