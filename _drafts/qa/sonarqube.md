@@ -9,7 +9,7 @@ Sonarqube es una plataforma Open Source de administración de calidad de código
 
 ## [Documentación](http://docs.sonarqube.org/display/SONAR/Documentation)
 
-
+## [Analizar Código fuente](http://docs.sonarqube.org/display/SONAR/Analyzing+Source+Code)
 
 ### Videos Referencias
 ===
