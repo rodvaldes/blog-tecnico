@@ -151,6 +151,30 @@ Transmitting file data .
 Committed revision 6.
 ```
 
+<<<<<<< HEAD
+=======
+## [Ciclo básico de trabajo](http://svnbook.red-bean.com/en/1.7/svn.tour.cycle.html)
+
+
+
+## Revisar la historia
+
+svn diff
+Shows line-level details of a particular change
+
+svn log
+Shows you broad information: log messages with date and author information attached to revisions and which paths changed in each revision
+
+svn cat
+Retrieves a file as it existed in a particular revision number and displays it on your screen
+
+svn annotate
+Retrieves a human-readable file as it existed in a particular revision number, displaying its contents in a tabular form with last-changed information attributed to each line of the file.
+
+svn list
+Displays the files in a directory for any given revision
+
+>>>>>>> 12fdfe2ea3088040bdd7a90b0f077bde463fab63
 ## Version Control Basics 
 ### [Fundamental Concepts](http://svnbook.red-bean.com/en/1.7/svn.basic.version-control-basics.html)
 
