@@ -33,5 +33,30 @@ ISO de instalación.
 1.- Se instala Oracle JDK8. 
 https://www.digitalocean.com/community/tutorials/how-to-install-java-on-centos-and-fedora 
 
-2.- 
+2.- Snapshot de máquina virtual. 
+
+3.- 
+
+## Instalación de Artifactory
+
+1.- Descarga de Artifactory
+
+a) Instalación vía RPM
+
+wget https://bintray.com/jfrog/artifactory-rpms/rpm -O bintray-jfrog-artifactory-rpms.repo
+sudo mv bintray-jfrog-artifactory-rpms.repo /etc/yum.repos.d/
+sudo yum install jfrog-artifactory-oss
+
+
+
+
+
+
+
+
+
+
+
+
+
  
