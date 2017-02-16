@@ -1,0 +1,48 @@
+[root@centos65 ~]# wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u60-b27/jdk-8u60-linux-x64.rpm"
+--2016-12-08 22:00:04--  http://download.oracle.com/otn-pub/java/jdk/8u60-b27/jdk-8u60-linux-x64.rpm
+Resolviendo download.oracle.com... 190.98.177.162, 190.98.177.147
+Connecting to download.oracle.com|190.98.177.162|:80... conectado.
+Petición HTTP enviada, esperando respuesta... 302 Moved Temporarily
+Localización: https://edelivery.oracle.com/otn-pub/java/jdk/8u60-b27/jdk-8u60-linux-x64.rpm [siguiendo]
+--2016-12-08 22:00:05--  https://edelivery.oracle.com/otn-pub/java/jdk/8u60-b27/jdk-8u60-linux-x64.rpm
+Resolviendo edelivery.oracle.com... 23.41.144.169, 2001:1498:1:218d::2d3e, 2001:1498:1:2197::2d3e
+Connecting to edelivery.oracle.com|23.41.144.169|:443... conectado.
+Petición HTTP enviada, esperando respuesta... 302 Moved Temporarily
+Localización: http://download.oracle.com/otn-pub/java/jdk/8u60-b27/jdk-8u60-linux-x64.rpm?AuthParam=1481245329_b5d6b03f79ba8b76212ee0acbce3efa3 [siguiendo]
+--2016-12-08 22:00:05--  http://download.oracle.com/otn-pub/java/jdk/8u60-b27/jdk-8u60-linux-x64.rpm?AuthParam=1481245329_b5d6b03f79ba8b76212ee0acbce3efa3
+Connecting to download.oracle.com|190.98.177.162|:80... conectado.
+Petición HTTP enviada, esperando respuesta... 200 OK
+Longitud: 160084320 (153M) [application/x-redhat-package-manager]
+Saving to: `jdk-8u60-linux-x64.rpm'
+
+100%[=====================================================================>] 160.084.320 2,31M/s   in 72s 
+
+
+[root@centos65 ~]# sudo alternatives --config java
+
+Hay 4 programas que proporcionan 'java'.
+
+  Selección    Comando
+-----------------------------------------------
+*+ 1           /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java
+   2           /usr/lib/jvm/jre-1.6.0-openjdk.x86_64/bin/java
+   3           /usr/lib/jvm/jre-1.5.0-gcj/bin/java
+   4           /usr/java/jdk1.8.0_60/jre/bin/java
+
+Presione Intro para mantener la selección actual[+], o escriba el número de la selección:  4
+[root@centos65 ~]# 
+[root@centos65 ~]# 
+[root@centos65 ~]# 
+[root@centos65 ~]# export JAVA_HOME=/usr/java/jdk1.8.0_60
+[root@centos65 ~]# cat "export JAVA_HOME=/usr/java/jdk1.8.0_60" >> /etc/environment
+cat: export JAVA_HOME=/usr/java/jdk1.8.0_60: No existe el fichero o el directorio
+[root@centos65 ~]# echo "export JAVA_HOME=/usr/java/jdk1.8.0_60" >> /etc/environment
+[root@centos65 ~]# cat /etc/environment 
+export JAVA_HOME=/usr/java/jdk1.8.0_60
+[root@centos65 ~]# 
+[root@centos65 ~]# 
+[root@centos65 ~]# 
+[root@centos65 ~]# 
+[root@centos65 ~]# echo $JAVA_HOME
+/usr/java/jdk1.8.0_60
+
