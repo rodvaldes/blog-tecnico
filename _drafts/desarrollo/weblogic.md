@@ -10,5 +10,5 @@ weblogic.Deployer invoked with options:  -adminurl t3://localhost:7001 -user web
 Task 5 initiated: [Deployer:149026]deploy application PlanExampleApp on AdminServer.
 Task 5 completed: [Deployer:149026]deploy application PlanExampleApp on AdminServer.
 Target state: redeploy completed on Server AdminServer
-
-cyberlaptop:DeploymentPlanSample rvaldes$```
+cyberlaptop:DeploymentPlanSample rvaldes$
+```
